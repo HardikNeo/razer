@@ -1,0 +1,167 @@
+* {
+  overflow-x: hidden;
+}
+html {
+  font-size: 16px;
+}
+@font-face {
+  font-family: "RazerF5";
+  src: url(fonts/RazerF5.woff) format("woff");
+}
+@font-face {
+  font-family: "RazerF5Bold";
+  src: url(fonts/RazerF5Bold.woff) format("woff");
+}
+@font-face {
+  font-family: "RazerF5Light";
+  src: url(fonts/RazerF5Light.woff) format("woff");
+}
+@font-face {
+  font-family: "RazerF5SemiBold";
+  src: url(fonts/RazerF5SemiBold.woff) format("woff");
+}
+@font-face {
+  font-family: "RazerF5Thin";
+  src: url(fonts/RazerF5Thin.woff) format("woff");
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+.background {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 0.5rem;
+}
+body {
+  font-size: 1.1rem;
+  background-color: #222222;
+}
+.header {
+  top: 0;
+  height: 3.75rem;
+  position: fixed;
+  margin: 0;
+  overflow-y: hidden;
+}
+.body {
+  margin-top: 3.75rem;
+}
+.nav-dad {
+  margin: 0;
+  background-color: #000;
+  display: flex;
+  padding-left: 4rem;
+  justify-content: start;
+  gap: 3.5rem;
+}
+.nav-bar {
+  margin: 0;
+  padding-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+  padding-top: 1.4rem;
+}
+.nav-side {
+  display: flex;
+  justify-content: space-around;
+  gap: 5rem;
+  padding-top: 1.4rem;
+}
+li {
+  list-style-type: none;
+}
+.logo {
+  width: 2.3rem;
+  height: auto;
+  padding-top: 0.4rem;
+}
+.nav-list {
+  font-family: razerF5;
+}
+.nav-link:link {
+  text-decoration: none;
+  color: #7f7d7f;
+}
+.nav-link:hover {
+  color: #ffff;
+}
+.icons {
+  font-size: 1.4rem;
+}
+.line {
+  background-color: #44d62c;
+  height: 1px;
+  width: 100vw;
+  margin: 0;
+}
+.message {
+  margin: 0;
+  width: 100vw;
+  height: 2rem;
+  background-color: #555555;
+  font-family: RazerF5Light;
+  font-size: 1rem;
+  color: #ffff;
+  text-align: center;
+  padding-top: 0.7rem;
+}
+.Edge {
+  background-image: url("img/razer-edge-homepage-desktop.webp");
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+}
+.Edu {
+  background-image: url("img/back-to-school-homepage-desktop.webp");
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+}
+.Blade14 {
+  background-image: url("img/razer-blade-14-2023-homepage-desktop.webp");
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+}
+.title {
+  font-family: RazerF5SemiBold;
+  color: #ffff;
+  font-size: 3.5rem;
+  margin: 0;
+  margin-top: 3rem;
+}
+.subtitle {
+  font-family: RazerF5Light;
+  color: #ffff;
+  font-size: 1.8rem;
+  margin: 0;
+}
+.Grid {
+  display: grid;
+}
+.Gitems {
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.Edge {
+  background-image: url("img/razer-edge-b-950x580-desktop.webp");
+}
+.Nexus {
+  background-image: url("img/razer-nexus-950x580-desktop.webp");
+}
+.Mercury {
+  background-image: url("img/mercury-blade16-blade18-b-950x580-desktop.webp");
+}
+.Blackwidow {
+  background-image: url("img/razer-blackwidow-v4-x-b-950x580-desktop.webp");
+}
+.Honkai {
+  background-image: url("img/honkai-star-rail-webshop-razer-gold-954x580.webp");
+}
+.Enki {
+  background-image: url("img/enkipro-lamborghini-b-950x580-desktop.webp");
+}
